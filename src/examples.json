@@ -1,0 +1,62 @@
+[
+  {
+    "family": "16S_rRNA",
+    "label": "16S rRNA (C. elegans domain 4)",
+    "sequence": "ACCCUGACGAAGGCCACAAAGUAAGCACAAGUACCCACGUAAAGACGUUAGGUCAAGGUGUAGCCCAUGAGGU",
+    "reference": ".((((.....))).......)..........(((....)))................................"
+  },
+  {
+    "family": "23S_rRNA",
+    "label": "23S rRNA (H. pylori domain 6)",
+    "sequence": "AGGAAAGUUGAGGAGAGCUGUCCCUAGUACGAGAGGACCGGGAUGGACGUGUCACUGGUGCACCAGUUGUCUGCCAAGAGCAUCGCUGGGUAGCACACACGGAUGUGAUAACUGCUGAAAGCAUCUAAGCAGGAACCAACUCCAAGAUAAACUUUCCCUGAAGCUCGCACAAAGACUAUGUGCUUGAUAGGGUAGAUGUGUGAGCGCAGUAAUGCGUUUAGCUGACUACUACUAAUAGAGCG",
+    "reference": ".((((((((..((((..(((((((...(.(....).)..))))))).(((((...(.(....((((((((((....))).))..)))))....)).)))))....((....(((((...........)))))....)).))))......)))))))).....(((((((((.......)))))....((((((((..(.....(((((....)))))....)...))))).)))...))))."
+  },
+  {
+    "family": "5S_rRNA",
+    "label": "5S rRNA (U. parvum)",
+    "sequence": "UAGUGAUUAUAUCAGAGUGGAAAUACCUGUUCCCAUCCCGAACACAGAAGUCAAGCACUCUAGAGCCGAAAAUAGCGCAAGUAAAAUAGGUCAUCGCUACGC",
+    "reference": "((((((.....((((((((.....((((((.............))))..))....)))))).)).((.(.....((....))....).))...))))))..."
+  },
+  {
+    "family": "RNaseP",
+    "label": "RNase P (H. chlorum, partial)",
+    "sequence": "GAAUUCAACGUAUAAACGAGACACAUGCAUAUAUUUUGUUAUGUGUAGACAGAUGGUUACCACCAACGAUCCAGUGUAACUAGUGCACGUGAUGAGUACAAUGGAACAGAACCCGGCUUA",
+    "reference": "....................(((((((((.(...).)).)))))))................(((..(..(..(((((.....))))).......)..)..)))................"
+  },
+  {
+    "family": "SRP",
+    "label": "SRP RNA (S. flexneri)",
+    "sequence": "CCGUCAGGUCCGGAAGGAAGCAGCGGUA",
+    "reference": "((((....(((....)))....)))).."
+  },
+  {
+    "family": "group_II_intron",
+    "label": "Group II Intron (N. tabacum)",
+    "sequence": "AACCCUAGAUGCUGUCGGAGUAAAGGAUCGUCAACAAGGGCGUUCUAGUGCGUUGUAGAUUCUUAUCCAAGACUUGUAUCAUUUGAUGAUGCCAUGUGAAUCGCUAGAAACAUGUGAAGUGUAUGGCUAACCCAAUAACGAAAGUUUCGUAAGGGGACUGGAGCAGGCUACCAUGAGACAAAAGAUCUUCUUUCUAAAGAGAUUCGAUUCGGAACUCUUAUAUGUCCAAGGUUCAAUAUUGAAAUAAUUUCAGAGGUUUUCCCUGACUUUGUCCGUGUCAACAAACAAUUCGAAAUACCUCGACUUUUUUAGAACAGGUCCGAGUCAAAUAGCAAUGAUUCGAAGCACUUCUUUUUACACUAUUUCGGAAACCCAAGGACUCAAUCGUAUGGAUAUGUAAAAUACAGGAUUUCCAAUCCUAGCAGGAAAGGGAGGGAAACGGAUACUCAAUUUAAAGUGAGUAAACAGAAUUCCAUACUCGAUCUCAUAGAUACAUAUAGAAUUCUGCGGAAAGCCGUAUUCGAUGAAAGUCGUAUGUACGGCUUGGAGGGAGAUCUUUCAUAUCUUUCGAGAUCCACCCUACAAUAUGGGGUAAAAAAGCCAAAAUAAGUGAUUUUAG",
+    "reference": "....................................................(((((......((((((......(((((.......)))))(((((............)))))...(((...((((...(((...(((....)))......)))...........)))).............(((((.(((....)))))))).........))).......((((..(((..((((...............((((........))))(((..((....))..))).((((((..((...(((((.........)))))...)).............))))))................))))......)))...)))).........)))))).......)))))..(((((..((((.........)))).)))))....(((((..........)))))..((((((((..........................))))))))....(((((((((.((((....))))...)))))))))..((((.((((((...........))))))..))))......................................"
+  },
+  {
+    "family": "group_I_intron",
+    "label": "Group I Intron (S. paniceum)",
+    "sequence": "GAAUGGCUCGGAUUUGAUGGGCCAUUCAACUUAUAACAGGCUCCGAAGUGACCUGUAACAGUGCCAAAAUGCGGGAAUUAGCCACCUUGGUGGUGAAACCCGCAGCUGAUCACCGCGUCAGUUCAACGACUAGAUGGUACUGGCUGGUUCGUUCCAGUUAAGAUAUAGUCUCUCACCGGGGGUAAAUCCCAGUGCUUCACGGCAUUAAAU",
+    "reference": "(((((((((.........)))))))))........(((((...........)))))...((((((....((((((.....(((((....)))))....))))))((((((......))))))...(.(((((...))))))((((((......))))))......))))))(.(((.((((.....)))).)))......)........."
+  },
+  {
+    "family": "tRNA",
+    "label": "tRNA-Arg (A. suum)",
+    "sequence": "GACAAAUGUUUUCAGGUCUUCUAAAUCUGUUUUGGAGAAAUCCGUUUGUUUCCA",
+    "reference": "(((((((............((((((.....)))))).......)))))))...."
+  },
+  {
+    "family": "telomerase",
+    "label": "Telomerase RNA (AF221928)",
+    "sequence": "GUCUAACCCUGAAUUCUGAGAGCUGUGGGUACUGUGCUUUCGUCUCCGCCCGCUGUUUUUCUCGCUGACUUCCAGCGGGCGGGAAAGUCCAGACCUGCAGCGGGCCAUCGCGCGUUUUCCACCACAAAAAAAUGUCAGCGCUGGGCUCAUGUGCCUGGAGCCUUGCGGCCGGCCGCCCAGCCCCGCACCCGCCUGAGGCCGCGGUCGGCCUGGAGUCCUCGGGCUCCGCUGCCGCCGCGAAGAGCUAGACUCUGUCAGCCGCGGGGCGUCAGGGGCUGGGGCGAGCCCCGGCAGCGCCGCAAGCAGAGAAACGGAGCUGGUCCCGUGAACGGUGACUUCCCUGAGUUGUGGGAAAUGCACCAGGAACUCGGUUCCCACAACC",
+    "reference": ".....................(((((((((.....(((((......(((((((((........((((((((.)))))))))..)))))....))))))))).............................)).))))))......................(((((((..((.(((((((((((...(((((.......(((((.((((..(((..........)))...))))))))).((((.....)))).......)))))......)))))).))))..).))........)))))))..........((((((((.((.......(((.(.((((........))))...))))..)).))).)))))........"
+  },
+  {
+    "family": "tmRNA",
+    "label": "tmRNA (J. lividum)",
+    "sequence": "GGGGAUGAAUUAGUUUAGAUAUUUAAGUAAUCCAUGAAAAUUCAUCAGAAUUUUGUAAUAUUGCUUAGAUAAAACCAUGGGCAGUACAUGGCAUCUCCACCA",
+    "reference": "(((((((............((((((((((((.....(((((((....))))))).....))))))))))))...(((((.......))))))))))))...."
+  }
+]
