@@ -99,11 +99,17 @@ NuRNA/
   src/
     NuRNA/
       __init__.py
+      constants.py
       data.py
       nussinov.py
       evaluation.py
       visualization.py
       analysis.py
+    .streamlit/
+      config.toml
+    app.py
+    examples.json
+    results.json
     main.ipynb
   pyproject.toml
 ```
@@ -151,6 +157,12 @@ uv run jupyter notebook src/
 uv run jupyter nbconvert --to notebook --execute src/main.ipynb
 ```
 
+### Run the web app
+
+```bash
+uv run streamlit run src/app.py
+```
+
 ---
 
 ## Task Assignment
@@ -159,9 +171,9 @@ uv run jupyter nbconvert --to notebook --execute src/main.ipynb
 
 | Name | NIM | Task |
 | --- | --- | --- |
-| Razi Rachman Widyadhana | 13523004 | Project setup, `__init__.py`, `data.py`, notebook integration. Report: Introduction, Conclusion, final assembly. |
-| Refki Alfarizi | 13523002 | `nussinov.py` (core algorithm: `can_pair`, `build_dp_matrix`, `traceback`, `predict_structure`). Report: Methods, Nussinov algorithm and DP formulation. |
-| Darrel Adinarya Sunanda | 13523061 | `visualization.py` (`plot_rna_2d`, `plot_arc_diagram`, `plot_dp_matrix`, `plot_comparison`). Report: Results & Discussion, structure visualization section. |
+| Razi Rachman Widyadhana | 13523004 | Project setup, `__init__.py`, `constants.py`, `data.py`, `app.py`. Report: Introduction, Conclusion, final assembly. |
+| Refki Alfarizi | 13523002 | `nussinov.py` (core algorithm: `can_pair`, `build_dp_matrix`, `traceback`, `predict_structure`), `main.ipynb`. Report: Methods, Nussinov algorithm and DP formulation. |
+| Darrel Adinarya Sunanda | 13523061 | `visualization.py` (`plot_rna_2d`, `plot_arc_diagram`, `plot_dp_matrix`, `plot_comparison`), `examples.json`, `results.json`. Report: Results & Discussion, structure visualization section. |
 | Muhammad Hazim Ramadhan Prajoda | 13523009 | `evaluation.py`, `analysis.py`. Report: Results & Discussion, evaluation and per-family analysis section. |
 
 ---
