@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/NuRNA"]
+
+[project]
+name = "NuRNA"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "datasets>=4.8.5",
+    "forgi>=2.2.3",
+    "ipykernel>=7.2.0",
+    "jupyterlab>=4.5.7",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.6",
+    "pandas>=3.0.3",
+    "streamlit>=1.57.0",
+    "tqdm>=4.66.0",
+]
