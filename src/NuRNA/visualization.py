@@ -179,10 +179,12 @@ def plot_rna_2d(
 
     _draw_nts(ax, seq, xs, ys)
     ax.legend(handles=_nt_legend_handles(), loc="lower right",
-              fontsize=8, framealpha=0.85, title="Nukleotida")
+              fontsize=14, framealpha=0.85, title="Nukleotida",
+              title_fontsize=15, handlelength=2.5, handleheight=1.8,
+              borderpad=1.0, labelspacing=0.8)
 
     if title:
-        ax.set_title(title, fontsize=11, pad=10)
+        ax.set_title(title, fontsize=20, pad=12)
     if own_fig:
         fig.tight_layout()
     return fig
